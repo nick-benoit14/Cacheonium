@@ -24,3 +24,80 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
+.blockwrapper{/*width:80%; */height:auto; /*padding-bottom:300px;*/ position:relative;/* display:inline-block;*/ display:table-cell;}
+    .blockwrapper-min{position:relative;display:block;}
+    html, body{height:100%;}
+    .group
+        {
+
+
+        }
+
+   .group.container{height:150px; width:300px; display:inline-block;padding-bottom:100px;}
+    .group.large
+        {
+              height:100%; width:100%; font-family:sans-serif; position:relative;
+        }
+
+
+
+    .group.photocontainer
+        {
+            height:100%; width:100%; position:relative; z-index:2;
+        }
+    .group.photo{height:100%; width:100%;}
+    
+    .group.blue{background-color:#75afc9;  color:white;}
+    .group.maroon{background-color:#79575d;  color:white;}
+    .group.green{background-color:#8f9b50;  color:white;}
+    
+    
+    .group.yellow{background-color:#FF820B;  color:white;}
+    .group.yellow a{color: #ffffff;}
+
+    
+    .group.red{background-color:#FF2F19; color:white;}
+    .group.red a:hover{color:#ffffff;}
+    .group.red a{color:#ffffff;}
+
+    .group.pastelgreen{background-color:#549431; color:white;}
+    .group.pastelgreen a{color: #ffffff;}
+
+    .group.pastelblue{background-color:#265B6A; color:white;}
+    .group.pastelblue a{color: #ffffff;}
+
+    
+    .grey{background-color:#1B1B1B; color:white;}
+    .charcoal{ border-color:white; border-style: solid;
+    border-width: 1px;  color:white;}
+
+    
+    .group.title{text-align:center; margin:0 auto; font-weight:lighter; font-size:30px; height: 60px; word-spacing:8px; position:relative;}
+    .group.details
+        {
+            text-align:center; font-size:12; font-family:sans-serif;
+            position:absolute; bottom:-60px; z-index:1; /*z-index:-10;*/ background-color:inherit; width:inherit;
+            color:white;
+
+        }
+    .group.details a{ font-size:18; font-family:sans-serif; /*font-weight:bold;*/ font-weight:200;}
+    
+    .group.detailtext{margin:10px; font-size:16; padding-bottom:0px; line-height:1; padding-top:10px;}
+
+     
+    .cachemakers.cache-announcement-container{display:relative; width:100%;}
+    .cachemakers.cache-announcement-text-full{display:table-cell;}
+    .cachemakers.cache-announcement-text-full h2{text-align:center;}
+
+
+
+    
+    .cachemakers.cache-slider-container-full{display:table-cell; height:300px;}
+    
+    .cachemakers.cache-announcement-text-min{display:block;}
+    .cachemakers.cache-slider-container-min{display:table-cell; height:300px;}
+    
+     
+     .cacheonium.container{height:auto; width:100%; display:table; margin-top:25px;}
