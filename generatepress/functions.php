@@ -203,7 +203,7 @@ require get_template_directory() . '/inc/extras.php';
 /**
  * Build the navigation
  */
-require get_template_directory() . '/inc/navigation.php';
+//require get_template_directory() . '/inc/navigation.php';
 
 /**
  * Customizer additions.
@@ -213,7 +213,7 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * Load element classes
  */
-require get_template_directory() . '/inc/element-classes.php';
+//require get_template_directory() . '/inc/element-classes.php';
 
 /**
  * Load metaboxes

@@ -1,0 +1,5 @@
+Need to filter generate settings to add logo
+add logo file to overwritten generate_header_items();
+//fill up header bar height 1/3 width cache makers blocks - logo
+
+//maybe add data object to cycle through color styles

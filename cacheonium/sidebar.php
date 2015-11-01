@@ -1,44 +1,45 @@
 <style>
     
+    .abs-left{left:0px;}
+    .abs-right{right:0px;}
+    
     .cacheonium.cache-sidebar-full{ display:table-cell; width:33%; height:100%;  position:relative; }
     .cacheonium.cache-sidebar-min{display:block;}
     
-    .cacheonium.get-involved{position:relative;text-align:center; margin-left:auto; margin-right:auto;}
-    .cacheonium.cache-button{/*display:table-cell;*/ display:inline-block; width:45%; 
-                             margin-left:auto; margin-right:auto; 
-                             height:auto; font-size: 30px;}
-    .cacheonium.cache-sidebar-header{padding-bottom:25px; /*text-decoration:underline;*/}  
+    .cacheonium.cache-button{ display:inline-block; width:45%; 
+                             height:auto; font-size: 30px; position:absolute; padding:5px; margin:5px;}
+    .cacheonium.cache-sidebar-header{ margin-left:auto; margin-right:auto; margin:10px; }  
+    .cacheonium.cache-title{display:inline-block; font-size:40px; padding:15px; }
     
-    .cacheonium.cache-events{/*text-align:center;*/ padding-top:35px;}
-    .cacheonium.cache-events h1{text-align:center;}
+    
+    .cacheonium.get-involved{position:relative; text-align:center; margin-left:auto; margin-right:auto; height: 200px;}
+    .cacheonium.cache-events{position:relative; text-align:center; margin-left:auto; margin-right:auto;}
 
-    .cacheonium.cache-list li
+    .cacheonium.cache-list-item
         {
            
-             color:white;  margin-left:auto; margin-right:auto;
-            /*display:inline-block;*/
+             color:white; 
+             font-size:20px;
         }
-    .cacheonium.cache-list-item{display:inline-block; border-bottom-width: 1px;  border-bottom-color:white; border-bottom-style: solid; }
     </style>
 
-<div class="cacheonium cache-sidebar-full grey">
+<div class="cacheonium cache-sidebar-full ">
     
                     
-                    <div class="cacheonium get-involved">
-                        <div class="cacheonium cache-sidebar-header"><h1>Get Involved</h1></div>
-                                <div class="cacheonium cache-button charcoal">Teach</div>
-                            
-                               <div class="cacheonium cache-button charcoal" >Learn</div> 
+                    <div class="cacheonium get-involved ">
+                        <div class="cacheonium cache-sidebar-header"><div class="cacheonium cache-title bright-red">Get Involved</div></div>
+                                <div class="cacheonium cache-button bright-blue abs-left">Teach</div>
+                                <div class="cacheonium cache-button bright-yellow abs-right" >Learn</div> 
                     </div>
-    
+
                     <div class="cacheonium cache-events">
                         <!-- Calendar / Upcoming Events -->
-                        <div class ="cacheonium cache-sidebar-header"><h1>Upcoming Events</h1></div>
-                        <ul class = "cacheonium cache-list">
-                            <li><div class="cacheonium cache-list-item">Unity Game Design</div></li>
-                            <li><div class="cacheonium cache-list-item">Weather Team</div></li>
-                            <li><div class="cacheonium cache-list-item">Minecraft Modding</div></li>
-                        </ul>
+                        <div class ="cacheonium cache-sidebar-header"><div class="cacheonium cache-title bright-red">Upcoming Events</div></div>
+                            <div class="cacheonium cache-list-item bright-green">Unity Game Design</div>
+                            <div class="cacheonium cache-list-item bright-yellow">Weather Team</div>
+                            <div class="cacheonium cache-list-item bright-red">Minecraft Modding</div>
+                            <div class="cacheonium cache-list-item bright-blue">Mobile Apps</div>
+
                     </div>
     
                     <div>

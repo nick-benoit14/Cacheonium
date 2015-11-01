@@ -81,7 +81,6 @@ function generate_content_nav( $nav_id ) {
 		<?php next_post_link( '<div class="nav-next"><span class="next" title="' . __('Next','generate') . '">%link</span></div>', '%title' ); ?>
 
 	<?php elseif ( $wp_query->max_num_pages > 1 && ( is_home() || is_archive() || is_search() ) ) : // navigation links for home, archive, and search pages ?>
-
 		<?php if ( get_next_posts_link() ) : ?>
 		<div class="nav-previous"><span class="prev" title="<?php _e('Previous','generate');?>"><?php next_posts_link( __( 'Older posts', 'generate' ) ); ?></span></div>
 		<?php endif; ?>
@@ -325,7 +324,8 @@ function generate_navigation_search()
 	?>
 	<form role="search" method="get" class="search-form navigation-search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<input type="search" class="search-field" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="<?php _ex( 'Search', 'label', 'generate' ); ?>">
-	</form> 
+	</form>
+
 	<?php
 }
 endif;
@@ -493,13 +493,15 @@ if ( ! function_exists( 'generate_header_items' ) ) :
  */
 function generate_header_items() 
 {
+	
+	
 	$generate_settings = wp_parse_args( 
 		get_option( 'generate_settings', array() ), 
 		generate_get_defaults() 
 	);
 	
 	// Get the title and tagline
-	$title = get_bloginfo( 'title' );
+	$title =  get_bloginfo( 'title' );
 	$tagline = get_bloginfo( 'description' );
 	
 	// If the disable title checkbox is checked, or the title field is empty, return true
@@ -513,26 +515,55 @@ function generate_header_items()
 		<div class="header-widget">
 			<?php dynamic_sidebar( 'header' ); ?>
 		</div>
-	<?php endif;
+	<?php endif;?>
 		
-	// Site title and tagline
-	if ( false == $disable_title || false == $disable_tagline ) : ?>
 		<div class="site-branding">
-			<?php if ( false == $disable_title ) : ?>
-				<p class="main-title" itemprop="headline"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php echo bloginfo( 'name' ); ?></a></p>
-			<?php endif;
-				
-			if ( false == $disable_tagline ) : ?>
-				<p class="site-description"><?php echo html_entity_decode( bloginfo( 'description' ) ); ?></p>
-			<?php endif; ?>
-		</div>
-	<?php endif;
+			
+			<img class="cache-logo-title" src="https://cache-makers-test-server-nbenoit14.c9.io/wp-includes/images/media/logo_bright4.png">
+		
 	
-	// Site logo
-	if ( ! empty( $generate_settings['logo'] ) ) : ?>
-		<div class="site-logo">
-			<a href="<?php echo apply_filters( 'generate_logo_href' , esc_url( home_url( '/' ) ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="header-image" src="<?php echo esc_url( $generate_settings['logo'] ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
-		</div>
-	<?php endif;
+<?php 
 }
 endif;
+
+
+
+            
+        if ( ! function_exists( 'cachemakers_slider' ) ) :
+            
+            function cachemakers_slider()
+                {
+                    
+                    
+/*               
+                    <div class="cachemakers cache-announcement-container">
+                         <div class="cachemakers cache-slider-container-full">
+                             
+                             
+                            <div class='cachemakers cache-slider'>
+                                <div><img src='https://cache-makers-test-server-nbenoit14.c9.io/wp-includes/images/21060290884_c92d1b35bd_z.jpg' alt='test' class='cachemakers cache-slider-image'></div>
+                            </div>
+                            
+                            
+                        </div> 
+                    
+                    <div class="cachemakers cache-announcement-text-full">
+                                 <h2>Announcements</h2>
+                                 <ul>
+                                     <li>Hack Day - Annual Local Hack Day This Saturday at Utah State University</li>
+                                     <li>Maker Faire - Salt Lake City MakerFaire Saturday 9/10/15</li>
+                                     <li>Signups - Signups for next sessions clubs ends wednesday</li>
+
+                                 </ul>
+                           </div>
+                      </div>
+                </div>
+*/         
+                      return $slider_string;
+                    
+                }
+            
+            
+        endif;
+
+?>

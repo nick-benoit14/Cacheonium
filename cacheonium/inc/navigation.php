@@ -121,11 +121,19 @@ function generate_menu_fallback( $args )
 		get_option( 'generate_settings', array() ), 
 		generate_get_defaults() 
 	);
+	$data = new Data();
+	$num = $data->get_color_num();
 	?>
 	<div class="main-nav">
 		<ul <?php generate_menu_class(); ?>>
 			<?php 
-			wp_list_pages('sort_column=menu_order&title_li=');
+			$pages = wp_list_pages('title_li=&echo=0' );
+
+		
+        	//$pages = preg_replace('/class="/ ','class=" ' . get_button_style($data->get_color_num()) .  ' ', $pages); //note space on end of replacement string                  
+	
+    		 //output
+        	echo $pages;
 			if ( 'enable' == $generate_settings['nav_search'] ) :
 				echo '<li class="search-item" title="' . _x( 'Search', 'submit button', 'generate' ) . '"><a href="#"><i class="fa fa-search"></i></a></li>';
 			endif;
