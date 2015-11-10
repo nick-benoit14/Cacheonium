@@ -519,7 +519,7 @@ function generate_header_items()
 
 		<div class="site-branding">
 
-			<img class="cache-logo-title" src="https://45.55.18.170/wp-includes/images/media/logo_bright4.png">
+			<img class="cache-logo-title" src="http://45.55.18.170/wp-includes/images/media/logo_bright4.png">
 
 
 <?php
