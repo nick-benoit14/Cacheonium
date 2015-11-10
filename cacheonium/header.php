@@ -30,7 +30,7 @@
 		</div><!-- .inside-header -->
 	</header><!-- #masthead -->
 	<?php do_action( 'generate_after_header' ); ?>
-	
+
 	<div id="page" class="hfeed site grid-container container grid-parent">
 		<div id="content" class="site-content">
 			<?php do_action('generate_inside_container'); ?>

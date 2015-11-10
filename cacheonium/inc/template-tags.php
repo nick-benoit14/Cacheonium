@@ -42,7 +42,7 @@ if ( ! function_exists( 'generate_paging_nav' ) ) :
 
 		if ( $links ) :
 
-			echo $links; 
+			echo $links;
 
 		endif;
 	}
@@ -88,7 +88,7 @@ function generate_content_nav( $nav_id ) {
 		<?php if ( get_previous_posts_link() ) : ?>
 		<div class="nav-next"><span class="next" title="<?php _e('Next','generate');?>"><?php previous_posts_link( __( 'Newer posts', 'generate' ) ); ?></span></div>
 		<?php endif; ?>
-		
+
 		<?php generate_paging_nav(); ?>
 		<?php do_action('generate_paging_navigation'); ?>
 
@@ -155,7 +155,7 @@ function generate_comment( $comment, $args, $depth ) {
 				<?php comment_text(); ?>
 			</div><!-- .comment-content -->
 
-			
+
 		</article><!-- .comment-body -->
 
 	<?php
@@ -169,9 +169,9 @@ if ( ! function_exists( 'generate_posted_on' ) ) :
  */
 function generate_posted_on() {
 
-	if ( 'post' !== get_post_type() ) 
+	if ( 'post' !== get_post_type() )
 		return;
-		
+
 	$time_string = '<time class="entry-date published" datetime="%1$s" itemprop="datePublished">%2$s</time>';
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) )
 		$time_string .= '<time class="updated" datetime="%3$s" itemprop="dateModified">%4$s</time>';
@@ -230,11 +230,11 @@ function generate_featured_page_header_area($class)
 	// Don't run the function unless we're on a page it applies to
 	if ( ! is_singular() )
 		return;
-		
+
 	// Don't run the function unless we have a post thumbnail
 	if ( ! has_post_thumbnail() )
 		return;
-		
+
 	?>
 	<div class="<?php echo $class; ?> grid-container grid-parent">
 		<?php the_post_thumbnail( apply_filters( 'generate_page_header_default_size', 'full' ), array('itemprop' => 'image') ); ?>
@@ -255,9 +255,9 @@ function generate_featured_page_header()
 		return;
 
 	if ( is_page() ) :
-		
+
 		generate_featured_page_header_area('page-header-image');
-	
+
 	endif;
 }
 endif;
@@ -275,9 +275,9 @@ function generate_featured_page_header_inside_single()
 		return;
 
 	if ( is_single() ) :
-	
+
 		generate_featured_page_header_area('page-header-image-single');
-	
+
 	endif;
 }
 endif;
@@ -289,11 +289,11 @@ if ( ! function_exists( 'generate_post_image' ) ) :
 add_action( 'generate_after_entry_header', 'generate_post_image' );
 function generate_post_image()
 {
-		
+
 	// If there's no featured image, return
 	if ( ! has_post_thumbnail() )
 		return;
-		
+
 	// If we're not on any single post/page or the 404 template, we must be showing excerpts
 	if ( ! is_singular() && ! is_404() ) {
 	?>
@@ -313,14 +313,14 @@ if ( ! function_exists( 'generate_navigation_search' ) ) :
 add_action( 'generate_inside_navigation','generate_navigation_search');
 function generate_navigation_search()
 {
-	$generate_settings = wp_parse_args( 
-		get_option( 'generate_settings', array() ), 
-		generate_get_defaults() 
+	$generate_settings = wp_parse_args(
+		get_option( 'generate_settings', array() ),
+		generate_get_defaults()
 	);
-		
+
 	if ( 'enable' !== $generate_settings['nav_search'] )
 		return;
-			
+
 	?>
 	<form role="search" method="get" class="search-form navigation-search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<input type="search" class="search-field" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="<?php _ex( 'Search', 'label', 'generate' ); ?>">
@@ -337,21 +337,21 @@ if ( ! function_exists( 'generate_menu_search_icon' ) ) :
  * @since 1.2.9.7
  */
 add_filter( 'wp_nav_menu_items','generate_menu_search_icon', 10, 2 );
-function generate_menu_search_icon( $nav, $args ) 
+function generate_menu_search_icon( $nav, $args )
 {
-	$generate_settings = wp_parse_args( 
-		get_option( 'generate_settings', array() ), 
-		generate_get_defaults() 
+	$generate_settings = wp_parse_args(
+		get_option( 'generate_settings', array() ),
+		generate_get_defaults()
 	);
-	
+
 	// If the search icon isn't enabled, return the regular nav
 	if ( 'enable' !== $generate_settings['nav_search'] )
 		return $nav;
-	
+
 	// If our primary menu is set, add the search icon
     if( $args->theme_location == 'primary' )
         return $nav . '<li class="search-item" title="' . _x( 'Search', 'submit button', 'generate' ) . '"><a href="#"><i class="fa fa-search"></i></a></li>';
-	
+
 	// Our primary menu isn't set, return the regular nav
 	// In this case, the search icon is added to the generate_menu_fallback() function in navigation.php
     return $nav;
@@ -365,17 +365,17 @@ if ( ! function_exists( 'generate_mobile_menu_search_icon' ) ) :
  * @since 1.3.12
  */
 add_action( 'generate_inside_mobile_menu','generate_mobile_menu_search_icon' );
-function generate_mobile_menu_search_icon() 
+function generate_mobile_menu_search_icon()
 {
-	$generate_settings = wp_parse_args( 
-		get_option( 'generate_settings', array() ), 
-		generate_get_defaults() 
+	$generate_settings = wp_parse_args(
+		get_option( 'generate_settings', array() ),
+		generate_get_defaults()
 	);
-	
+
 	// If the search icon isn't enabled, return the regular nav
 	if ( 'enable' !== $generate_settings['nav_search'] )
 		return;
-	
+
 	echo '<li class="search-item" title="' . _x( 'Search', 'submit button', 'generate' ) . '"><a href="#"><i class="fa fa-search"></i></a></li>';
 }
 endif;
@@ -386,7 +386,7 @@ if ( ! function_exists( 'generate_entry_meta' ) ) :
  *
  * @since 1.2.5
  */
-function generate_entry_meta() 
+function generate_entry_meta()
 {
 	if ( 'post' == get_post_type() ) {
 
@@ -491,62 +491,62 @@ if ( ! function_exists( 'generate_header_items' ) ) :
  *
  * @since 1.2.9.7
  */
-function generate_header_items() 
+function generate_header_items()
 {
-	
-	
-	$generate_settings = wp_parse_args( 
-		get_option( 'generate_settings', array() ), 
-		generate_get_defaults() 
+
+
+	$generate_settings = wp_parse_args(
+		get_option( 'generate_settings', array() ),
+		generate_get_defaults()
 	);
-	
+
 	// Get the title and tagline
 	$title =  get_bloginfo( 'title' );
 	$tagline = get_bloginfo( 'description' );
-	
+
 	// If the disable title checkbox is checked, or the title field is empty, return true
-	$disable_title = ( '1' == $generate_settings[ 'hide_title' ] || '' == $title ) ? true : false; 
-	
+	$disable_title = ( '1' == $generate_settings[ 'hide_title' ] || '' == $title ) ? true : false;
+
 	// If the disable tagline checkbox is checked, or the tagline field is empty, return true
 	$disable_tagline = ( '1' == $generate_settings[ 'hide_tagline' ] || '' == $tagline ) ? true : false;
-	
+
 	// Header widget
 	if ( is_active_sidebar('header') ) : ?>
 		<div class="header-widget">
 			<?php dynamic_sidebar( 'header' ); ?>
 		</div>
 	<?php endif;?>
-		
+
 		<div class="site-branding">
-			
-			<img class="cache-logo-title" src="https://cache-makers-test-server-nbenoit14.c9.io/wp-includes/images/media/logo_bright4.png">
-		
-	
-<?php 
+
+			<img class="cache-logo-title" src="https://45.55.18.170/wp-includes/images/media/logo_bright4.png">
+
+
+<?php
 }
 endif;
 
 
 
-            
+
         if ( ! function_exists( 'cachemakers_slider' ) ) :
-            
+
             function cachemakers_slider()
                 {
-                    
-                    
-/*               
+
+
+/*
                     <div class="cachemakers cache-announcement-container">
                          <div class="cachemakers cache-slider-container-full">
-                             
-                             
+
+
                             <div class='cachemakers cache-slider'>
                                 <div><img src='https://cache-makers-test-server-nbenoit14.c9.io/wp-includes/images/21060290884_c92d1b35bd_z.jpg' alt='test' class='cachemakers cache-slider-image'></div>
                             </div>
-                            
-                            
-                        </div> 
-                    
+
+
+                        </div>
+
                     <div class="cachemakers cache-announcement-text-full">
                                  <h2>Announcements</h2>
                                  <ul>
@@ -558,12 +558,12 @@ endif;
                            </div>
                       </div>
                 </div>
-*/         
+*/
                       return $slider_string;
-                    
+
                 }
-            
-            
+
+
         endif;
 
 ?>
