@@ -9,3 +9,9 @@
  Tags:         cacheonium
  Text Domain:
 */
+
+
+@import url(https://fonts.googleapis.com/css?family=Muli);
+/*html{font-family: 'Muli', sans-serif;}*/
+
+.center{margin-left:auto; margin-right:auto; float:none;} /* Center Page Body */
