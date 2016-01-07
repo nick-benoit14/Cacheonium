@@ -34,11 +34,11 @@
 
 								<div class="slide-body row">
 									<?php if( $attachment_meta['title'] ) { ?>
-										<!--<h2 class="slide-title"><span><?//php echo esc_html($attachment_meta['title']); ?></span></h2> --><!-- /.slide-title -->
+										<!--=<h2 class="slide-title"><span><?//php echo esc_html($attachment_meta['title']); ?></span></h2> --><!-- /.slide-title -->
 									<?php } ?>
 
 									<?php if( $attachment_meta['caption'] ) { ?>
-										<!--<h3 class="slide-caption"><span><?php //echo esc_html($attachment_meta['caption']); ?></span></h3> --> <!-- /.slide-title -->
+										<h3 class="slide-caption"><span><?php echo esc_html($attachment_meta['caption']); ?></span></h3> <!-- /.slide-title -->
 									<?php } ?>
 
 
