@@ -19,16 +19,16 @@
 					</div><!-- /.content -->
 
 
-						<section class="section-comments">
+					<!--	<section class="section-comments">
 							<div class="row">
 								<div class="columns small-12">
 
-									<?php comments_template( '', true ); ?>
+									<?php// comments_template( '', true ); ?>
 
-								</div><!-- /.columns small-12 -->
-							</div><!-- /.row -->
-						</section><!-- /.section-comments -->
-
+								</div>
+							</div>
+						</section>
+					-->
 				</div><!-- /.columns large-8 -->
 
 				<!--
