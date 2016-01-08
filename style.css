@@ -26,3 +26,18 @@ h1, h2, h3, h4, h5, h6 {
 p {
   text-align: center;
 }
+
+/* line 16, assets/sass/style.scss */
+.slider-home .flex-direction-nav a {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-top: -12px;
+  background: #ffffff;
+  box-sizing: content-box;
+  background-clip: content-box;
+  font-size: 31px;
+  color: #d95204;
+  line-height: 60px;
+  text-align: center;
+}
