@@ -27,11 +27,12 @@ p {
   text-align: center;
 }
 
-/* line 16, assets/sass/style.scss */
+/* Fix builtin theme slider button */
+/* line 18, assets/sass/style.scss */
 .slider-home .flex-direction-nav a {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   margin-top: -12px;
   background: #ffffff;
   box-sizing: content-box;
