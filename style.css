@@ -17,8 +17,8 @@
 .center{margin-left:auto; margin-right:auto; float:none;} /* Center Page Body */
 
 
-
-.slider-home .flex-direction-nav a { /* Fix Slider CSS*/
+/*
+.slider-home .flex-direction-nav a {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -50,3 +50,4 @@
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
+*/
