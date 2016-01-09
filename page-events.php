@@ -15,7 +15,7 @@
 				<div class="columns large-12">
 					<div class="content">
               <h1>Events</h1>
-						  <?php eventbrite_get_events(); ?>
+						  <?php echo eventbrite_get_eventblocks(); ?>
 						<?php if(have_posts()) :
 						 while (have_posts()) : the_post();
 
