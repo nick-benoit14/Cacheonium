@@ -14,10 +14,8 @@
 			<div class="row">
 				<div class="columns large-12">
 					<div class="content">
-            <div>
-              <h1>Events Page</h1>
-            </div>
-
+              <h1>Events</h1>
+						  <?php eventbrite_get_events(); ?>
 						<?php if(have_posts()) :
 						 while (have_posts()) : the_post();
 
@@ -27,8 +25,6 @@
 							endif;
 						?>
 
-
-						<?php get_template_part('content', 'page' ); ?>
 					</div><!-- /.content -->
 
 
