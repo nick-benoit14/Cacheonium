@@ -1,15 +1,27 @@
 <?php
 
   function add_cacheonium_roles(){
+
+
+    /* Remove Standard Roles */
+    $remove_roles = array('subscriber', 'contributor', 'author', 'editor');
+
+    foreach($remove_roles as $role){
+      remove_role( $role );
+    }
+
+
+    /* Add Cache Makers Roles */
+
     $staff = add_role(
-        'staff',
-        __( 'Staff' ),
+        'staff',__( 'Staff' ),
         array(
             'read'         => true,  // true allows this capability
             'edit_posts'   => true,
             'delete_posts' => false, // Use false to explicitly deny
-        )
-    );
+        ));
+
+
 
   }
 
