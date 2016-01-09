@@ -9,9 +9,6 @@
 </style>
 
 <?php
-/**
- * Template Name: Eventbrite Events
- */
 
 get_header(); ?>
 
