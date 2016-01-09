@@ -16,10 +16,10 @@
 					<div class="content">
               <h1>Events</h1>
 
-							<div>
+							<div style="max-width:950px; margin:auto;">
 						  	<?php echo eventbrite_get_eventblocks(); ?>
 							</div>
-							
+
 						<?php if(have_posts()) :
 						 while (have_posts()) : the_post();
 
