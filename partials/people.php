@@ -22,12 +22,16 @@
 		<?php $args = array('role' => 'staff',);
 
 					$users = get_users( $args );
-					foreach($users as $user){
-						echo $user->description;
+					foreach( $users as $user ){ ?>
+
+						<h4><?php echo ($user->get('first_name') . " " . $user->get('first_name') ?> </h4>
+								<?php echo get_avatar( $user->ID, $size ); ?>
+
 					}
 
 
-		 ?>
+
+
 	</div>
 
 </article>
