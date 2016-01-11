@@ -15,7 +15,7 @@
 	<div>
 		<h3>Volunteer Leaders</h3>
 		<div>
-			<?php $args = array('role' => 'staff',);
+			<?php $args = array('role' => 'leader',);
 
 				$users = get_users( $args );
 				foreach( $users as $user ){ ?>
