@@ -9,9 +9,9 @@
 
 ?>
 
-<h1>People</h1>
 <article <?php post_class("post post-single"); ?> > <!-- Cache Makers People Block -->
-
+	<h1>People</h1>
+	
 	<div>
 		<h3>Volunteer Leaders</h3>
 	</div>
