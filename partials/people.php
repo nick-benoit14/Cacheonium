@@ -14,12 +14,23 @@
 
 	<div>
 		<h3>Volunteer Leaders</h3>
+		<div>
+			<?php $args = array('role' => 'staff',);
 
+				$users = get_users( $args );
+				foreach( $users as $user ){ ?>
+					<div>
+						<h4><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h4>
+								<?php echo get_avatar( $user->ID ); ?>
+					</div>
+			<?php		} ?>
+		</div>
 	</div>
 
 	<div>
 		<h3>Staff</h3>
-		<?php $args = array('role' => 'staff',);
+			<div>
+				<?php $args = array('role' => 'staff',);
 
 					$users = get_users( $args );
 					foreach( $users as $user ){ ?>
@@ -27,8 +38,8 @@
 							<h4><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h4>
 									<?php echo get_avatar( $user->ID ); ?>
 						</div>
-			<?php		} ?>
-
+				<?php		} ?>
+			</div>
 
 
 
