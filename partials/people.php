@@ -9,14 +9,15 @@
 
 ?>
 
+<h1>People</h1>
 <article <?php post_class("post post-single"); ?> > <!-- Cache Makers People Block -->
 
 	<div>
-		<h2>Volunteer Leaders</h2>
+		<h3>Volunteer Leaders</h3>
 	</div>
 
 	<div>
-		<h2>Staff</h2>
+		<h3>Staff</h3>
 	</div>
 
 </article>
