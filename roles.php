@@ -21,7 +21,19 @@
             'delete_posts' => false, // Use false to explicitly deny
         ));
 
+    $maker = add_role(
+        'maker',__( 'Maker' ),
+        array(
+            'read'         => true,  // true allows this capability
+        ));
 
+    $leader = add_role(
+        'leader',__( 'Leader' ),
+        array(
+            'read'         => true,  // true allows this capability
+            'edit_posts'   => true,
+            'delete_posts' => false, // Use false to explicitly deny
+        ));
 
   }
 
