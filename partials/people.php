@@ -24,10 +24,10 @@
 					$users = get_users( $args );
 					foreach( $users as $user ){ ?>
 						<div>
-							<h4><?php echo $user->get('first_name') . " " . $user->get('first_name'); ?></h4>
+							<h4><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h4>
 									<?php echo get_avatar( $user->ID ); ?>
 						</div>
-					}
+			<?php		} ?>
 
 
 
