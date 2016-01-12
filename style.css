@@ -28,7 +28,11 @@ p {
 }
 
 /* line 17, assets/sass/style.scss */
-.cachemakers-peopleblock {
+.cachemakers-people {
+  text-align: center;
+}
+/* line 20, assets/sass/style.scss */
+.cachemakers-people .cachemakers-peopleblock {
   display: inline-block;
   text-align: center;
   width: 200px;
@@ -38,7 +42,7 @@ p {
 }
 
 /* Fix builtin theme slider button */
-/* line 29, assets/sass/style.scss */
+/* line 32, assets/sass/style.scss */
 .slider-home .flex-direction-nav a {
   position: absolute;
   width: 40px;
