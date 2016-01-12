@@ -21,27 +21,26 @@
 			<?php $args = array('role' => 'leader',);
 
 				$users = get_users( $args );
-				foreach( $users as $user ){ ?>
+				foreach( $users as $user ): ?>
 					<div class="cachemakers-peopleblock">
 						<h5><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h5>
 								<?php echo get_avatar( $user->ID ); ?>
 					</div>
-			<?php		} ?>
+			<?php	endforeach; ?>
 		</div>
 	</div>
 
 	<div>
 		<h3>Staff</h3>
-			<div class="cachemakers-peopleblock">
+			<div>
 				<?php $args = array('role' => 'staff',);
-
 					$users = get_users( $args );
-					foreach( $users as $user ){ ?>
-						<div>
+					foreach( $users as $user ): ?>
+						<div class="cachemakers-peopleblock">
 							<h5><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h5>
 									<?php echo get_avatar( $user->ID ); ?>
 						</div>
-				<?php		} ?>
+				<?php	endforeach; ?>
 			</div>
 	</div>
 
