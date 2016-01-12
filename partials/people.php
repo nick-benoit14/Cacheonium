@@ -17,7 +17,7 @@
 		 world around us and making the future. </p>
 	<div>
 		<h3>Group Leaders</h3>
-		<div>
+		<div class="cachemakers-people">
 			<?php $args = array('role' => 'leader',);
 
 				$users = get_users( $args );
@@ -32,7 +32,7 @@
 
 	<div>
 		<h3>Staff</h3>
-			<div>
+			<div class="cachemakers-people">
 				<?php $args = array('role' => 'staff',);
 					$users = get_users( $args );
 					foreach( $users as $user ): ?>
