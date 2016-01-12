@@ -22,7 +22,7 @@
 
 				$users = get_users( $args );
 				foreach( $users as $user ){ ?>
-					<div>
+					<div class="cachemakers-peopleblock">
 						<h5><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h5>
 								<?php echo get_avatar( $user->ID ); ?>
 					</div>
@@ -32,7 +32,7 @@
 
 	<div>
 		<h3>Staff</h3>
-			<div>
+			<div class="cachemakers-peopleblock">
 				<?php $args = array('role' => 'staff',);
 
 					$users = get_users( $args );

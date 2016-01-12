@@ -14,6 +14,17 @@
 h1,h2,h3,h4,h5,h6 {text-align:center;}
 p{text-align:center;}
 
+.cachemakers-peopleblock{
+  display:inline-block;
+  text-align:center;
+  width:200px;
+  padding:1%;
+  box-shadow: 4px 4px 2px gray; overflow:hidden;
+}
+
+
+
+
 /* Fix builtin theme slider button */
 .slider-home .flex-direction-nav a {
   position: absolute;
