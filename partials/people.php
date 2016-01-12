@@ -24,7 +24,7 @@
 				foreach( $users as $user ): ?>
 					<div class="cachemakers-peopleblock">
 						<h5><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h5>
-								<?php echo get_avatar( $user->ID ); ?>
+								<?php echo get_avatar( $user->ID , 200); ?>
 					</div>
 			<?php	endforeach; ?>
 		</div>
@@ -38,7 +38,7 @@
 					foreach( $users as $user ): ?>
 						<div class="cachemakers-peopleblock">
 							<h5><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></h5>
-									<?php echo get_avatar( $user->ID ); ?>
+									<?php echo get_avatar( $user->ID, 200 ); ?>
 						</div>
 				<?php	endforeach; ?>
 			</div>
