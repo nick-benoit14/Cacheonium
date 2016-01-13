@@ -44,14 +44,21 @@ p {
   padding: 3%;
 }
 /* line 26, assets/sass/style.scss */
-.cachemakers-people .cachemakers-peopleblock p {
-  font-weight: bold;
-  text-align: left;
+.cachemakers-people .cachemakers-peopleblock .people-text {
   padding-top: 10%;
+  text-align: left;
+}
+/* line 29, assets/sass/style.scss */
+.cachemakers-people .cachemakers-peopleblock .people-text p {
+  font-weight: 600;
+}
+/* line 30, assets/sass/style.scss */
+.cachemakers-people .cachemakers-peopleblock .people-text .sub-title {
+  font-weight: 100;
 }
 
 /* Fix builtin theme slider button */
-/* line 33, assets/sass/style.scss */
+/* line 39, assets/sass/style.scss */
 .slider-home .flex-direction-nav a {
   position: absolute;
   width: 40px;

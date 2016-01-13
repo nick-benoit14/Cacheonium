@@ -23,7 +23,13 @@ p{text-align:center; color:#7b7b7b;}
   .cachemakers-peopleblock{
     display:inline-block;
     padding:3%;
-    p{font-weight:bold; text-align:left; padding-top:10%;}
+    .people-text{
+      padding-top:10%;
+      text-align:left;
+      p{font-weight:600; }
+      .sub-title{font-weight:100;}
+    }
+
   }
 }
 
