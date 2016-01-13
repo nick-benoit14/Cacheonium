@@ -28,20 +28,30 @@ p {
 }
 
 /* line 17, assets/sass/style.scss */
+.cachemakers-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* line 21, assets/sass/style.scss */
 .cachemakers-people {
   text-align: center;
 }
-/* line 20, assets/sass/style.scss */
+/* line 23, assets/sass/style.scss */
 .cachemakers-people .cachemakers-peopleblock {
   display: inline-block;
-  text-align: center;
-  width: 200px;
-  padding: 1%;
+  /*width:200px;*/
+  padding: 3%;
   /*box-shadow: 4px 4px 2px gray; overflow:hidden;*/
+}
+/* line 29, assets/sass/style.scss */
+.cachemakers-people .cachemakers-peopleblock h5 {
+  font-weight: bold;
+  text-align: left;
 }
 
 /* Fix builtin theme slider button */
-/* line 32, assets/sass/style.scss */
+/* line 36, assets/sass/style.scss */
 .slider-home .flex-direction-nav a {
   position: absolute;
   width: 40px;
