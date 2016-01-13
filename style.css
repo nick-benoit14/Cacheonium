@@ -47,20 +47,20 @@ p {
 .cachemakers-people .cachemakers-peopleblock .people-text {
   padding-top: 10%;
   text-align: left;
-  margin: 0;
 }
-/* line 30, assets/sass/style.scss */
+/* line 29, assets/sass/style.scss */
 .cachemakers-people .cachemakers-peopleblock .people-text p {
   font-weight: 600;
   text-align: left;
+  margin: 0%;
 }
-/* line 31, assets/sass/style.scss */
+/* line 30, assets/sass/style.scss */
 .cachemakers-people .cachemakers-peopleblock .people-text .sub-title {
   font-weight: 100;
 }
 
 /* Fix builtin theme slider button */
-/* line 40, assets/sass/style.scss */
+/* line 39, assets/sass/style.scss */
 .slider-home .flex-direction-nav a {
   position: absolute;
   width: 40px;
