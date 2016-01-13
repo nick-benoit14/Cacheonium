@@ -41,10 +41,13 @@
 				<?php $args = array('role' => 'staff',);
 					$users = get_users( $args );
 					foreach( $users as $user ): ?>
-						<div class="cachemakers-peopleblock">
-									<?php echo get_avatar( $user->ID, 150 ); ?>
-									<p><?php echo $user->get('first_name') . " " . $user->get('last_name'); ?></p>
-						</div>
+					<div class="cachemakers-peopleblock">
+								<?php echo get_avatar( $user->ID , 150); ?>
+								<div class="people-text">
+									<p><?php echo $user->first_name . " " . $user->last_name; ?></p>
+									<p class="sub-title"><?php echo $user->title; ?> </p>
+								</div>
+					</div>
 				<?php	endforeach; ?>
 			</div>
 	</div>
