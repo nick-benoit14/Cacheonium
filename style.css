@@ -41,18 +41,17 @@ p {
 /* line 23, assets/sass/style.scss */
 .cachemakers-people .cachemakers-peopleblock {
   display: inline-block;
-  /*width:200px;*/
   padding: 3%;
-  /*box-shadow: 4px 4px 2px gray; overflow:hidden;*/
 }
-/* line 29, assets/sass/style.scss */
+/* line 26, assets/sass/style.scss */
 .cachemakers-people .cachemakers-peopleblock p {
   font-weight: bold;
   text-align: left;
+  padding-top: 10%;
 }
 
 /* Fix builtin theme slider button */
-/* line 36, assets/sass/style.scss */
+/* line 33, assets/sass/style.scss */
 .slider-home .flex-direction-nav a {
   position: absolute;
   width: 40px;
