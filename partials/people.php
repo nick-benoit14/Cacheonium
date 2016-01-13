@@ -10,7 +10,7 @@
 ?>
 
 <article <?php post_class("post post-single"); ?> > <!-- Cache Makers People Block -->
-	<div>
+	<div class="cachemakers-content">
 	<h1>People</h1>
 	<p>Cache Makers is made possible by the hard work and dedication of many enthusiastic and excited
 		 community members. We collectively work to give Cache Valley kids and families a place to come
