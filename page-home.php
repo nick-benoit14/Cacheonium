@@ -13,6 +13,8 @@
 get_header(); ?>
 
 		<main id="main">
+			<?php echo do_shortcode('[advps-slideshow optset="1"]'); ?>
+
 			<div class="cachemakers-header">
 			<h1> Sign Up for a Group </h1>
 			<p>Cache Makers hosts a multitude volunteer led youth groups focused on Science, Technology, Engineering, and Math.
