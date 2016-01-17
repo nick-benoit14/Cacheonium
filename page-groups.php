@@ -19,7 +19,12 @@
 								Cache Makers hosts a multitude volunteer led youth groups focused on Science, Technology, Engineering, and Math.
 								Joining Cache Maker's 4-H club and signing up for a group is a great way to start learning interesting things,
 								continue learning about something you are already interested in, or meet likeminded individuals.
+							</p>
 
+							<div style="max-width:950px; margin:auto;">
+						  	<?php echo eventbrite_get_eventblocks(); ?>
+							</div>
+							<p>
 								 We provide a space, context, and resources to support enthusiastic volunteers in giving back to the community and it's youth.
 								  We believe that education does not stop when you leave the classroom. Whether
 							    you are leaving the classroom for the evening, or for good, learning is a lifelong process that transcends the 8:00 - 4:00 school day.
@@ -28,11 +33,9 @@
 								<p>All over Cache Valley and the rest of the world excited parents, community members, and kids come together to participate in youth sports.
 								   We are bringing that same collective community experience to STEM education. Youth groups are led by community members who want to give back
 								   to the community by sharing something that is important and interesting to them. We have found kids respond incredibly positively to this kind
-								   of hands on learning.</p>
+								   of hands on learning.
+								 </p>
 
-							<div style="max-width:950px; margin:auto;">
-						  	<?php echo eventbrite_get_eventblocks(); ?>
-							</div>
 
 						<?php if(have_posts()) :
 						 while (have_posts()) : the_post();
