@@ -21,7 +21,7 @@
 								continue learning about something you are already interested in, or meet likeminded individuals.
 							</p>
 
-							<div style="max-width:950px; margin:auto;">
+							<div style="max-width:950px; margin:auto; padding-top:2%; padding-bottom:2%;">
 						  	<?php echo eventbrite_get_eventblocks(); ?>
 							</div>
 							<p>
