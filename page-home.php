@@ -15,6 +15,8 @@ get_header(); ?>
 		<main id="main">
 			<?php echo do_shortcode('[advps-slideshow optset="1"]'); ?>
 
+			<hr style="66%">
+
 			<div class="cachemakers-header">
 			<h1> Sign Up for a Group </h1>
 			<p>Cache Makers hosts a multitude volunteer led youth groups focused on Science, Technology, Engineering, and Math.
@@ -25,7 +27,13 @@ get_header(); ?>
 			  <?php echo eventbrite_get_eventblocks(); ?>
 			</div>
 
+			<hr style="66%">
+
 			<div class="cachemakers-header"><h1>Things We've Made</h1></div>
+			<p>
+				We believe that kids like to create, and we are here to make that happen. Take a look at some of the things
+				we have made.
+			</p>
 			<div  style="overflow:auto; text-align:center;">
 				<iframe style="display:inline-block;" width="560" height="315" src="https://www.youtube.com/embed/MxaKxS5POmY" frameborder="0" allowfullscreen></iframe>
 				<iframe style="display:inline-block;" width="560" height="315" src="https://www.youtube.com/embed/CYzd85A-oCE" frameborder="0" allowfullscreen></iframe>
