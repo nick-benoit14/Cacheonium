@@ -2,10 +2,10 @@
 	<div class="cachemakers-content">
      <h2>Things We Do</h2>
      <div style="text-align:center;">
-       <div id="Electronics" class="cachemakers-thingsWeDo"   ></div>
-       <div id="Programming" class="cachemakers-thingsWeDo"></div>
-       <div id="Mechanical Design" class="cachemakers-thingsWeDo"></div>
-       <div id="Robotics" class="cachemakers-thingsWeDo"></div>
+       <div id="Electronics" class="cachemakers-thingsWeDo"><p>Electronics. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
+       <div id="Programming" class="cachemakers-thingsWeDo"><p>Programming. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
+       <div id="Mechanical Design" class="cachemakers-thingsWeDo"><p>Mechanical. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
+       <div id="Robotics" class="cachemakers-thingsWeDo"><p>Robotics. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
     </div>
 
     <hr style="width:66%; margin:5% auto;">
@@ -17,10 +17,10 @@
       </div>
     </div>
   </div>
-  <script> 
-  
+  <script>
+
    $('.cachemakers-thingsWeDo').click(function(){update(this);});
-   
+
    function update(current){
     $('#whatWeDo-Header').html(current.id);
     $('#whatWeDo-Description').html(current.dataset.description);

@@ -43,6 +43,7 @@ p{text-align:center; color:#7b7b7b;}
 
 .cachemakers-thingsWeDo{
   display:inline-block; height:200px; width:200px; background-color:#cccccc; opacity:1;
+  p{display:none;}
   &:hover{
     @include button-fade(.2s);
     opacity:.5;

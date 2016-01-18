@@ -70,6 +70,10 @@ p {
   opacity: 1;
 }
 /* line 46, assets/sass/style.scss */
+.cachemakers-thingsWeDo p {
+  display: none;
+}
+/* line 47, assets/sass/style.scss */
 .cachemakers-thingsWeDo:hover {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -79,7 +83,7 @@ p {
 }
 
 /* Fix builtin theme slider button */
-/* line 54, assets/sass/style.scss */
+/* line 55, assets/sass/style.scss */
 .slider-home .flex-direction-nav a {
   position: absolute;
   width: 40px;
