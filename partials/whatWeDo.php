@@ -18,7 +18,7 @@
     </div>
   </div>
   <script>
-    $('.active'){console.log($(this).id);}
+    console.log($('.active').id);}
   </script>
 
 </article>
