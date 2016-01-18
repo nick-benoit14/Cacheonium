@@ -78,9 +78,9 @@
 			<a href="<?php the_permalink(); ?>">
 				<time class="post-date" datetime="<?php echo get_the_date( 'c' ) ?>" itemprop="datePublished"><?php morning_time_lite_get_date(); ?></time><!-- /.post-date -->
 			</a>
-			<h3 class="post-title">
+			<h1 class="post-title">
 				<a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>" itemprop="url"><?php the_title(); ?></a>
-			</h3><!-- /.post-title -->
+			</h1><!-- /.post-title -->
 
 			<ul class="post-category"><li><?php the_category('</li><li>'); ?></li></ul>
 		</header><!-- /.post-head -->
