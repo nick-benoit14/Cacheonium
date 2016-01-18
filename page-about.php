@@ -16,7 +16,7 @@
 				<div class="columns large-12">
 					<div class="content">
 						<?php get_template_part('content', 'page' ); ?>
-            <?php get_template_part('partials/whatWeDo', 'page');
+            <?php get_template_part('partials/whatWeDo', 'page'); ?>
 					</div><!-- /.content -->
 
 
