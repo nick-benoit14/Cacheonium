@@ -7,6 +7,10 @@
        <div style="display:inline-block; height:200px; width:200px; background-color:red;"></div>
        <div style="display:inline-block; height:200px; width:200px; background-color:green;"></div>
     </div>
+    <div style="height:300px;">
+      <div style="background-color: blue; display:inline-block; width:300px;"></div>
+      <div style="display:inline-block;"><h3>The Thing I Clicked</h3></div>
+    </div>
   </div>
 
 </article>
