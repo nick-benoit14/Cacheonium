@@ -7,6 +7,7 @@
        <div style="display:inline-block; height:200px; width:200px; background-color:red;"></div>
        <div style="display:inline-block; height:200px; width:200px; background-color:green;"></div>
     </div>
+    <hr style="width:66%; paddign:1%;">
     <div style="margin:6%; text-align:center;">
       <div style="background-color:blue; height:200px; width:200px; display:inline-block;"></div>
       <div style="display:inline-block; margin:5%; vertical-align:top; min-width:100px; max-width: 500px;">
