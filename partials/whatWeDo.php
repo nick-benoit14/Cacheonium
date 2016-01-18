@@ -6,14 +6,22 @@
          <p>Electronics. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
          <img src="http://45.55.18.170/wp-content/uploads/2016/01/blueBlock.png">
        </div>
-       <div id="Programming" class="cachemakers-thingsWeDo"><p>Programming. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
-       <div id="Mechanical Design" class="cachemakers-thingsWeDo"><p>Mechanical. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
-       <div id="Robotics" class="cachemakers-thingsWeDo"><p>Robotics. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
+       <div id="Programming" class="cachemakers-thingsWeDo">
+         <p>Programming. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+       </div>
+       <div id="Mechanical Design" class="cachemakers-thingsWeDo">
+         <p>Mechanical. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+       </div>
+       <div id="Robotics" class="cachemakers-thingsWeDo">
+         <p>Robotics. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+       </div>
     </div>
 
     <hr style="width:66%; margin:5% auto;">
     <div style="margin:6%; text-align:center;">
-      <div style="display:inline-block; height:200px; width:200px; background-color:#cccccc; opacity:1;"></div>
+      <div style="display:inline-block; height:200px; width:200px; background-color:#cccccc; opacity:1;">
+        <img id="whatWeDo-Image" src="">
+      </div>
       <div style="display:inline-block; margin:5%; vertical-align:top; min-width:100px; max-width: 500px;">
         <h3 id="whatWeDo-Header">The Thing I Clicked</h3>
         <p id="whatWeDo-Description">subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
@@ -27,6 +35,8 @@
    function update(current){
     $('#whatWeDo-Header').html(current.id);
     $('#whatWeDo-Description').html(current.children[0].innerHTML);
+    console.log(current.children[1]);
+    $('#whatWeDo-Image').attr('src', current.children[1].src);
    }
  </script>
 
