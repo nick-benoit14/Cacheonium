@@ -23,7 +23,8 @@
 
    function update(current){
     $('#whatWeDo-Header').html(current.id);
-    $('#whatWeDo-Description').html(current.dataset.description);
+    console.log(current);
+    //$('#whatWeDo-Description').html(current);
    }
  </script>
 
