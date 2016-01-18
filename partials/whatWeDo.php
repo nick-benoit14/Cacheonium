@@ -10,6 +10,7 @@
     <div style="height:300px;">
       <div style="background-color: blue; float:left; height:100%; width:300px;"></div>
       <h3>The Thing I Clicked</h3>
+      <p>subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
     </div>
   </div>
 
