@@ -31,8 +31,8 @@
         <img id="whatWeDo-Image" src="">
       </div>
       <div style="display:inline-block; margin:5%; vertical-align:top; min-width:100px; max-width: 500px;">
-        <h3 id="whatWeDo-Header">The Thing I Clicked</h3>
-        <p id="whatWeDo-Description">subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+        <h3 id="whatWeDo-Header"></h3>
+        <p id="whatWeDo-Description"></p>
       </div>
     </div>
   </div>
