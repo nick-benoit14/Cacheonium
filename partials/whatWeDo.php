@@ -3,8 +3,8 @@
      <h2>Things We Do</h2>
      <div style="text-align:center;">
        <div id="Electronics" class="cachemakers-thingsWeDo">
-         <img src="http://45.55.18.170/wp-content/uploads/2016/01/blueBlock.png">
          <p>Electronics. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+         <img src="http://45.55.18.170/wp-content/uploads/2016/01/blueBlock.png">
        </div>
        <div id="Programming" class="cachemakers-thingsWeDo"><p>Programming. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
        <div id="Mechanical Design" class="cachemakers-thingsWeDo"><p>Mechanical. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p></div>
