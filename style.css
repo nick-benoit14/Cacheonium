@@ -69,6 +69,7 @@ p {
   background-color: #ffffff;
   opacity: 1;
   vertical-align: top;
+  padding: 5px;
 }
 /* line 46, assets/sass/style.scss */
 .cachemakers-thingsWeDo p {
