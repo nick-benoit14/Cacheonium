@@ -8,8 +8,8 @@
        <div style="display:inline-block; height:200px; width:200px; background-color:green;"></div>
     </div>
     <div style="height:300px;">
-      <div style="background-color: blue; display:inline-block; width:300px;"></div>
-      <div style="display:inline-block;"><h3>The Thing I Clicked</h3></div>
+      <div style="background-color: blue; float:left; height:100%; width:300px;"></div>
+      <h3>The Thing I Clicked</h3>
     </div>
   </div>
 
