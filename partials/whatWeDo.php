@@ -23,7 +23,7 @@
 
    function update(current){
     $('#whatWeDo-Header').html(current.id);
-    console.log(current);
+    console.log(current.children[0]);
     //$('#whatWeDo-Description').html(current);
    }
  </script>
