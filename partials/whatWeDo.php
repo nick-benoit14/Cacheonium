@@ -8,8 +8,8 @@
        <div style="display:inline-block; height:200px; width:200px; background-color:green;"></div>
     </div>
     <div style="height:300px; margin:6%;">
-      <div  style="background-color:blue; height:100%; width:300px; float:left;"></div>
-      <div>
+      <div  style="background-color:blue; height:100%; width:300px; display:inline-block;"></div>
+      <div style="display:inline-block; margin:5%; vertical-align:top;width: 500px;">
         <h3>The Thing I Clicked</h3>
         <p>subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
       </div>
