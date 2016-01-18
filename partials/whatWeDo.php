@@ -2,10 +2,10 @@
 	<div class="cachemakers-content">
      <h2>Things We Do</h2>
      <div style="text-align:center;">
-       <div class="cachemakers-thingsWeDo"></div>
-       <div class="cachemakers-thingsWeDo"></div>
-       <div class="cachemakers-thingsWeDo"></div>
-       <div class="cachemakers-thingsWeDo"></div>
+       <div id="Electronics" class="cachemakers-thingsWeDo"></div>
+       <div id="Programming" class="cachemakers-thingsWeDo"></div>
+       <div id="Mechanical Design" class="cachemakers-thingsWeDo"></div>
+       <div id="Robotics" class="cachemakers-thingsWeDo active"></div>
     </div>
 
     <hr style="width:66%; margin:5% auto;">
@@ -17,5 +17,8 @@
       </div>
     </div>
   </div>
+  <script>
+    $('.active'){console.log($(this).id);}
+  </script>
 
 </article>
