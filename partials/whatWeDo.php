@@ -8,9 +8,11 @@
        <div style="display:inline-block; height:200px; width:200px; background-color:green;"></div>
     </div>
     <div class="row" style="height:300px;">
-      <div style="background-color: blue; float:left; height:100%; width:300px;"></div>
-      <h3>The Thing I Clicked</h3>
-      <p>subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+      <div class="col-xs-12 col-md-4" style="background-color: blue; float:left; height:100%; width:300px;"></div>
+      <div class="col-xs-12 col-md-8">
+        <h3>The Thing I Clicked</h3>
+        <p>subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+      </div>
     </div>
   </div>
 
