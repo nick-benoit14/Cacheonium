@@ -8,12 +8,15 @@
        </div>
        <div id="Programming" class="cachemakers-thingsWeDo">
          <p>Programming. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+         <img src="http://45.55.18.170/wp-content/uploads/2016/01/g67.png">
        </div>
        <div id="Mechanical Design" class="cachemakers-thingsWeDo">
          <p>Mechanical. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+         <img src="http://45.55.18.170/wp-content/uploads/2016/01/yellowBlock.png">
        </div>
        <div id="Robotics" class="cachemakers-thingsWeDo">
          <p>Robotics. subtext about the thing that i clicked. We have some really cool things going on in relation to the thing you want to hear about.</p>
+         <img src="http://45.55.18.170/wp-content/uploads/2016/01/greenBlock.png">
        </div>
     </div>
 
