@@ -2,10 +2,10 @@
 	<div class="cachemakers-content">
      <h2>Things We Do</h2>
      <div style="text-align:center;">
-       <div class="cachmakers-thingsWeDo"></div>
-       <div class="cachmakers-thingsWeDo"></div>
-       <div class="cachmakers-thingsWeDo"></div>
-       <div class="cachmakers-thingsWeDo"></div>
+       <div class="cachemakers-thingsWeDo"></div>
+       <div class="cachemakers-thingsWeDo"></div>
+       <div class="cachemakers-thingsWeDo"></div>
+       <div class="cachemakers-thingsWeDo"></div>
     </div>
 
     <hr style="width:66%; margin:5% auto;">
