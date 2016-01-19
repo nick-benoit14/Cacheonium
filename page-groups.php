@@ -34,7 +34,13 @@
 							    volunteers from the community. Volunteer leaders are generally parents, but that is not always the case.
 									Volunteer leaders must register with 4-H and pass a background check.
 							</p>
-							<h4>What can I expect when I sign up for a group?</h4>
+							<h4>What can I expect when I sign my child up for a group?</h4>
+								<p>Groups usually run for 6 weeks with a 2 hour meeting once every week. Some groups are more project based,
+										where your child will come away from the group with a cool thing they built to take home. Other groups are
+									  more educational, where your child will end the 6 weeks hopefully knowing a bunch more about a subject than
+									  when they started. In either case Cache Makers youth groups are a great way for you and your child to learn
+									  about something new.</p>
+							<h4>Group Registration</h4>
 								<p>	Cache Makers is built on the idea of community involvement and a sense of giving back to the community.
 								   To encourage family involvement and ensure there are enough volunteers to help teach kids our sign up fee's
 									  are broken down into a three categories.
@@ -59,18 +65,6 @@
 								 							 for those who qualify. We do our best to make sure that our registration fee's are not cost prohibitive, but if there is
 															 a way we can make working with you, your child, and your family easier come and talk to us and we will work something out.	</p>
 
-
-			<!--				<p>
-								 We provide a space, context, and resources to support enthusiastic volunteers in giving back to the community and it's youth.
-								  We believe that education does not stop when you leave the classroom. Whether
-							    you are leaving the classroom for the evening, or for good, learning is a lifelong process that transcends the 8:00 - 4:00 school day.
-							</p>
-							<p>All over Cache Valley and the rest of the world excited parents, community members, and kids come together to participate in youth sports.
-							   We are bringing that same collective community experience to STEM education. Youth groups are led by community members who want to give back
-							   to the community by sharing something that is important and interesting to them. We have found kids respond incredibly positively to this kind
-							   of hands on learning.
-							 </p>
-			-->
 					  </div>
 
 						<?php if(have_posts()) :
