@@ -14,7 +14,7 @@
 			<div class="row">
 				<div class="columns large-12">
 					<div class="content">
-						<div <?php post_class('post post-single'); ?> >
+						<div style="padding:6%;" <?php post_class('post post-single'); ?> >
               <h1>Groups</h1>
 							<p>
 								Cache Makers hosts a multitude volunteer led youth groups focused on Science, Technology, Engineering, and Math.
@@ -27,7 +27,7 @@
 							</div>
 						</div>
 
-						<div <?php post_class('post post-single'); ?> >
+						<div style="padding:6%;" <?php post_class('post post-single'); ?> >
 							<p>
 								 We provide a space, context, and resources to support enthusiastic volunteers in giving back to the community and it's youth.
 								  We believe that education does not stop when you leave the classroom. Whether
