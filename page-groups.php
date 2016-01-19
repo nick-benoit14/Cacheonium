@@ -29,33 +29,33 @@
 
 						<div style="padding:6%;" <?php post_class('post post-single'); ?> >
 							<h2>About Groups</h2>
-							<p> What is a group?
-								Cache Makers youth groups are 4-H clubs. Like all other 4-H clubs they are organized and taught by
+							<h3> What is a group?</h3>
+							<p>	Cache Makers youth groups are 4-H clubs. Like all other 4-H clubs they are organized and taught by
 							    volunteers from the community. Volunteer leaders are generally parents, but that is not always the case.
 									Volunteer leaders must register with 4-H and pass a background check.
 							</p>
-							<p><b>What can I expect when I sign up for a group?</b>
-									Cache Makers is built on the idea of community involvement and a sense of giving back to the community.
+							<h3>What can I expect when I sign up for a group?</h3>
+								<p>	Cache Makers is built on the idea of community involvement and a sense of giving back to the community.
 								   To encourage family involvement and ensure there are enough volunteers to help teach kids our sign up fee's
 									  are broken down into a three categories.
 							</p>
 							<ul>
-								<li> No parental involvement </li> <p> Sign your child up for a group that they are interested in and bring them to come learn cool things!</p>
-								<li> Half Parental involvement</li> <p>Half the cost of a normal signup. Join your child late every week, or attend half of the meetings with your child.
+								<li><h4> No parental involvement</h4><p> Sign your child up for a group that they are interested in and bring them to come learn cool things!</p></li>
+								<li><h4>Half Parental involvement</h4></li><p>Half the cost of a normal signup. Join your child late every week, or attend half of the meetings with your child.
 								                            Come see what your child is up to, participate in the cool things they are learning, and maybe learn a thing or
 																						two yourself.</p>
 
-								<li>Full Parental Involvement</li> <p>Free. Cache Makers groups are free for you and your child to come make and learn together. Whether you have
+								<li><h4>Full Parental Involvement</h4></li> <p>Free. Cache Makers groups are free for you and your child to come make and learn together. Whether you have
 																					 a developed professional knowledge of the topic, or were not even aware of a it before the group, you and your
 																					 child are always welcome at Cache Makers.</p>
 							 	</ul>
-							 <p><b>How to help out as a parent?<b> - Parents are sometimes unsure about how they are able to help out, especially if they aren't familiar
+							 <h3>How to help out as a parent?</h3> -<p> Parents are sometimes unsure about how they are able to help out, especially if they aren't familiar
 							 																with the content. Helping can be as simple as making sure your child is spelling words correctly when
 																							coding, or as involved as helping the group leader develop lesson plans. Increasing the adult / child ratio
 																							can have a significant impact on the effectiveness of a classroom so your mere presense even is a large help.</p>
 
 
-								<p><b>Scholarships</b> - We believe that all kids should have an opportunity to learn. For this reason registration fee scholarhips are available
+								<h3>Scholarships</h3> <p>We believe that all kids should have an opportunity to learn. For this reason registration fee scholarhips are available
 								 							 for those who qualify. We do our best to make sure that our registration fee's are not cost prohibitive, but if there is
 															 a way we can make working with you, your child, and your family easier come and talk to us and we will work something out.	</p>
 
