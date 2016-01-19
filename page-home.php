@@ -15,16 +15,16 @@ get_header(); ?>
 		<main id="main">
 			<?php echo do_shortcode('[advps-slideshow optset="1"]'); ?>
 
-      <div style="margin-top:5%; margin-bottom:5%;"<?php post_class('post post-single') ?> >
-				<hr style="width:66%; padding:1.5%; margin:auto;">
+      <div style="padding:6%"<?php post_class('post post-single') ?> >
+				<!--<hr style="width:66%; padding:1.5%; margin:auto;"> -->
 				<h1> Sign Up for a Group </h1>
 				<p>Cache Makers hosts a multitude volunteer led youth groups focused on Science, Technology, Engineering, and Math.
 					 Joining Cache Maker's 4-H club and signing up for a group is a great way to start learning interesting things, continue
 					 learning about something you are already interested in, or meet likeminded individuals</p>
 				<div class="cachemakers-box"><?php echo eventbrite_get_eventblocks(); ?></div>
 		 </div>
-		 <div style="margin-top:5%; margin-bottom:5%;" <?php post_class('post post-single') ?> >
-			<hr style="width:66%; padding:1.5%; margin:auto;">
+		 <div style="padding:6%;" <?php post_class('post post-single') ?> >
+			<!-- <hr style="width:66%; padding:1.5%; margin:auto;"> -->
 			<h1>Things We've Made</h1>
 			<p>
 				We believe that kids like to create, and we are here to make that happen. Take a look at some of the things
