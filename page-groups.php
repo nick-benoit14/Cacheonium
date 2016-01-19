@@ -40,12 +40,12 @@
 									  are broken down into a three categories.
 							</p>
 							<ul>
-								<li><h5> No parental involvement</h5><p> Sign your child up for a group that they are interested in and bring them to come learn cool things!</p></li>
-								<li><h5>Half Parental involvement</h5></li><p>Half the cost of a normal signup. Join your child late every week, or attend half of the meetings with your child.
+								<li style="text-align:left;"><h5> No parental involvement</h5><p> Sign your child up for a group that they are interested in and bring them to come learn cool things!</p></li>
+								<li style="text-align:left;"><h5>Half Parental involvement</h5></li><p>Half the cost of a normal signup. Join your child late every week, or attend half of the meetings with your child.
 								                            Come see what your child is up to, participate in the cool things they are learning, and maybe learn a thing or
 																						two yourself.</p>
 
-								<li><h5>Full Parental Involvement</h5></li> <p>Free. Cache Makers groups are free for you and your child to come make and learn together. Whether you have
+								<li style="text-align:left;"><h5>Full Parental Involvement</h5></li> <p>Free. Cache Makers groups are free for you and your child to come make and learn together. Whether you have
 																					 a developed professional knowledge of the topic, or were not even aware of a it before the group, you and your
 																					 child are always welcome at Cache Makers.</p>
 							 	</ul>
