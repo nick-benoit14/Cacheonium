@@ -23,7 +23,7 @@ get_header(); ?>
 					 learning about something you are already interested in, or meet likeminded individuals</p>
 				<div class="cachemakers-box"><?php echo eventbrite_get_eventblocks(); ?></div>
 		 </div>
-		 <div style="padding:6%;" <?php post_class('post post-single') ?> >
+		 <div style="padding:3%;" <?php post_class('post post-single') ?> >
 			<!-- <hr style="width:66%; padding:1.5%; margin:auto;"> -->
 			<h1>Things We've Made</h1>
 			<p>
