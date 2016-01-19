@@ -28,7 +28,39 @@
 						</div>
 
 						<div style="padding:6%;" <?php post_class('post post-single'); ?> >
-							<p>
+							<h2>About Groups</h2>
+							<p> What is a group?
+								Cache Makers youth groups are 4-H clubs. Like all other 4-H clubs they are organized and taught by
+							    volunteers from the community. Volunteer leaders are generally parents, but that is not always the case.
+									Volunteer leaders must register with 4-H and pass a background check.
+							</p>
+							<p><b>What can I expect when I sign up for a group?</b>
+									Cache Makers is built on the idea of community involvement and a sense of giving back to the community.
+								   To encourage family involvement and ensure there are enough volunteers to help teach kids our sign up fee's
+									  are broken down into a three categories.
+							</p>
+							<ul>
+								<li> No parental involvement </li> <p> Sign your child up for a group that they are interested in and bring them to come learn cool things!</p>
+								<li> Half Parental involvement</li> <p>Half the cost of a normal signup. Join your child late every week, or attend half of the meetings with your child.
+								                            Come see what your child is up to, participate in the cool things they are learning, and maybe learn a thing or
+																						two yourself.</p>
+
+								<li>Full Parental Involvement</li> <p>Free. Cache Makers groups are free for you and your child to come make and learn together. Whether you have
+																					 a developed professional knowledge of the topic, or were not even aware of a it before the group, you and your
+																					 child are always welcome at Cache Makers.</p>
+							 	</ul>
+							 <p><b>How to help out as a parent?<b> - Parents are sometimes unsure about how they are able to help out, especially if they aren't familiar
+							 																with the content. Helping can be as simple as making sure your child is spelling words correctly when
+																							coding, or as involved as helping the group leader develop lesson plans. Increasing the adult / child ratio
+																							can have a significant impact on the effectiveness of a classroom so your mere presense even is a large help.</p>
+
+
+								<p><b>Scholarships</b> - We believe that all kids should have an opportunity to learn. For this reason registration fee scholarhips are available
+								 							 for those who qualify. We do our best to make sure that our registration fee's are not cost prohibitive, but if there is
+															 a way we can make working with you, your child, and your family easier come and talk to us and we will work something out.	</p>
+
+
+			<!--				<p>
 								 We provide a space, context, and resources to support enthusiastic volunteers in giving back to the community and it's youth.
 								  We believe that education does not stop when you leave the classroom. Whether
 							    you are leaving the classroom for the evening, or for good, learning is a lifelong process that transcends the 8:00 - 4:00 school day.
@@ -38,6 +70,7 @@
 							   to the community by sharing something that is important and interesting to them. We have found kids respond incredibly positively to this kind
 							   of hands on learning.
 							 </p>
+			-->
 					  </div>
 
 						<?php if(have_posts()) :
