@@ -24,6 +24,11 @@
 
 							<div style="max-width:950px; margin:auto; padding-top:2%; padding-bottom:2%;">
 								<h2>Groups Open For Registration</h2>
+						  	<?php echo eventbrite_get_all_eventblocks(); ?>
+							</div>
+
+							<div style="max-width:950px; margin:auto; padding-top:2%; padding-bottom:2%;">
+								<h2>Current Groups</h2>
 						  	<?php echo eventbrite_get_eventblocks(); ?>
 							</div>
 						</div>
