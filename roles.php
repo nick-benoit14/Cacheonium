@@ -18,7 +18,10 @@
         array(
             'read'         => true,  // true allows this capability
             'edit_posts'   => true,
-            'delete_posts' => false, // Use false to explicitly deny
+            'delete_posts' => true, // Use false to explicitly deny
+            'publish_posts' => true,
+            'publish_pages' => true,
+            ''
         ));
 
     $maker = add_role(
@@ -32,7 +35,7 @@
         array(
             'read'         => true,  // true allows this capability
             'edit_posts'   => true,
-            'delete_posts' => false, // Use false to explicitly deny
+            'delete_posts' => true, // Use false to explicitly deny
         ));
 
   }
