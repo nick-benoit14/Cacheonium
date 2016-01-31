@@ -35,8 +35,11 @@ get_header(); ?>
 				<iframe style="display:inline-block;" width="560" height="315" src="https://www.youtube.com/embed/4vJ5Ab-uTDk" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div style="margin:5%;">
+
 				<a data-flickr-embed="true"  href="https://www.flickr.com/photos/114910479@N08/albums/72157661959120016" title="Website Slides"><img src="https://farm1.staticflickr.com/697/20499472514_61c1370293_b.jpg" style="display:block; margin-auto;" width="1024" height="768" alt="Website Slides"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-			</div>
+			
+			<h2 style="text-align:center;padding:10px;" ><a href="https://www.flickr.com/photos/114910479@N08/">See More Photos</a></h2>
+</div>
 		</div>
 	</main><!-- #main -->
 	<?php// get_sidebar(); ?>
