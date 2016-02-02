@@ -18,9 +18,9 @@ get_header(); ?>
       <div style="padding:6%"<?php post_class('post post-single') ?> >
 				<!--<hr style="width:66%; padding:1.5%; margin:auto;"> -->
 				<h1> Sign Up for a Group </h1>
-				<p>Cache Makers hosts a multitude volunteer led youth groups focused on Science, Technology, Engineering, and Math.
+				<p>Cache Makers hosts a multitude volunteer-led youth groups focused on Science, Technology, Engineering, and Math.
 					 Joining Cache Maker's 4-H club and signing up for a group is a great way to start learning interesting things, continue
-					 learning about something you are already interested in, or meet likeminded individuals</p>
+					 learning about something you are already interested in, or meet like-minded individuals</p>
 				<div class="cachemakers-box"><?php echo eventbrite_get_open_eventblocks(); ?></div>
 		 </div>
 		 <div style="padding:3%;" <?php post_class('post post-single') ?> >
@@ -37,7 +37,7 @@ get_header(); ?>
 			<div style="margin:5%;">
 
 				<a data-flickr-embed="true"  href="https://www.flickr.com/photos/114910479@N08/albums/72157661959120016" title="Website Slides"><img src="https://farm1.staticflickr.com/697/20499472514_61c1370293_b.jpg" style="display:block; margin-auto;" width="1024" height="768" alt="Website Slides"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-			
+
 			<h2 style="text-align:center;padding:10px;" ><a href="https://www.flickr.com/photos/114910479@N08/">See More Photos</a></h2>
 </div>
 		</div>
