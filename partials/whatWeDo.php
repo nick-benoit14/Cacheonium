@@ -2,7 +2,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<div class="cachemakers-content">
      <h2>Things We Do</h2>
-     <p>Cache Makers is all about hands on experimental learning. Here are some of the things we work with on a regular basis.</p>
+     <p>Cache Makers is all about hands-on experiential learning. Here are some of the things we work with on a regular basis.</p>
      <div style="text-align:center;">
        <div id="Electronics" class="cachemakers-thingsWeDo">
          <p>Electronics is a classical pursuit of the maker. No self respecting makerspace would be complete without some cool electrical projects.
