@@ -23,12 +23,12 @@
 							</p>
 
 						  	<?php 
-						  		if(function_exists('eventbrite_get_open_eventblocks')){
+						  		if(function_exists('eventbrite_open_registration_blocks')){
 						  	?>
 						  	
 									<div style="max-width:950px; margin:auto; padding-top:2%; padding-bottom:2%;">
-									<h2>Groups Open For Registration</h2>
-							<?php echo eventbrite_get_open_eventblocks(); ?>
+									<h2>Upcoming Groups</h2>
+							<?php echo eventbrite_open_registration_blocks(); ?>
 									</div>
 						  	<?php } ?>
 
